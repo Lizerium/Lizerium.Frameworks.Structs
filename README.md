@@ -1,4 +1,7 @@
-<h1 align="center">🌏 Lizerium.Frameworks.Structs 🌏</h1>
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/Lizerium/.github/main/media/logo.png" width="32" style="vertical-align: middle;" />
+  Lizerium.Frameworks.Structs
+</h1>
 
 <p align="center">
   Structural map of frameworks across all Lizerium branches
@@ -19,43 +22,78 @@
 ---
 
 > [!NOTE]
-> This project is part of the **Lizerium** ecosystem and belongs to the following direction:
+> This repository is part of the **Lizerium** ecosystem:
 >
-> - [`Lizerium.Hub`](https://github.com/Lizerium/Lizerium.Hub)
->
-> If you are looking for related engineering and supporting tools, start there.
-
-## Purpose
-
-This repository serves as a **structural index of frameworks across all branches** within the **Lizerium** ecosystem.
-
-It is not a primary implementation, but rather acts as:
-
-- a map of frameworks related to the ecosystem
+> - https://github.com/Lizerium/Lizerium.Hub
 
 ---
 
-## What’s included in this direction
+## What is this
 
-### 1. 🌌 Frameworks
+`Lizerium.Frameworks.Structs` is a navigation point for frameworks.
 
-A framework for testing projects (game mods) within the classical branch of Lizerium.
+There is no core implementation here.  
+Its purpose is to:
 
-- [`Lizerium.DataValidation.Framework`](https://github.com/Lizerium/Lizerium.DataValidation.Framework)
+- list available frameworks
+- show where they are located
+- provide quick access
 
 ---
 
-## Architecture Diagram
+## How to use it
 
-```text
-Lizerium.Frameworks.Structs
-└── Lizerium.DataValidation.Framework
+> [!TIP]
+> If you are looking for a framework:
+>
+> 1. Find it in the list below
+> 2. Open the corresponding repository
+> 3. Read the documentation there
+
+---
+
+## Frameworks
+
+### Data Validation
+
+Framework for data validation and integrity checks
+
+→ https://github.com/Lizerium/Lizerium.DataValidation.Framework
+
+---
+
+## Structure
+
 ```
 
+Lizerium.Frameworks.Structs
+└── Lizerium.DataValidation.Framework
+
+```
+
+## Relations
+
+This layer is connected to:
+
+- https://github.com/Lizerium/Lizerium.Game.Structs — game data and formats
+
 ---
 
-## Relation to other directions
+## Why it exists
 
-This layer is connected with:
+> [!IMPORTANT]
+> Frameworks are used across multiple parts of the ecosystem.
+>
+> This repository exists to:
+>
+> - keep them organized
+> - maintain structure
+> - make navigation easier
 
-- [`Lizerium.Game.Structs`](https://github.com/Lizerium/Lizerium.Game.Structs) — structural map of game data and formats for the classical Lizerium branch
+---
+
+## Important
+
+> [!TIP]
+> If you need the actual framework — go to the specific repository.
+> This is only a map.
